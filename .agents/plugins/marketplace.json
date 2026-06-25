@@ -1,0 +1,20 @@
+{
+  "name": "paper-review-zotero",
+  "interface": {
+    "displayName": "Paper Review Zotero"
+  },
+  "plugins": [
+    {
+      "name": "zotero-docx-reference-manager",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zotero-docx-reference-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
