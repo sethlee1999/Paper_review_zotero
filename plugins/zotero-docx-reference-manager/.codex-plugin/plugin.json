@@ -1,0 +1,25 @@
+{
+  "name": "zotero-docx-reference-manager",
+  "version": "0.1.0",
+  "description": "Manage Zotero-backed references for academic Word DOCX manuscripts.",
+  "author": {
+    "name": "Shengshen Li",
+    "url": "https://github.com/sethlee1999"
+  },
+  "repository": "https://github.com/sethlee1999/Paper_review_zotero",
+  "keywords": ["zotero", "docx", "citations", "bibliography", "pdf"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Zotero DOCX Reference Manager",
+    "shortDescription": "Manage Zotero citations, bibliographies, PDFs, and DOCX references.",
+    "longDescription": "A Codex plugin for academic manuscript reference cleanup: inspect Zotero collections, download and verify PDFs, insert live Zotero fields into Word DOCX files, generate bibliography fields, and prepare safe Zotero attachment import scripts.",
+    "developerName": "Shengshen Li",
+    "category": "Productivity",
+    "capabilities": ["Files", "Documents", "Research"],
+    "defaultPrompt": [
+      "Clean up Zotero citations in my DOCX manuscript.",
+      "Download and verify PDFs for a Zotero collection.",
+      "Generate a Zotero attachment import script."
+    ]
+  }
+}
